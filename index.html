@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Splsh | Coffee, shakes and cold drinks delivered</title>
+<meta name="description" content="Order coffee, shakes, protein shakes, energy drinks and soft drinks from cafes, stalls and supermarkets near you. No alcohol.">
+<meta name="color-scheme" content="dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="wrap bar">
+<a class="logo" href="#top" aria-label="Splsh home">Splsh</a>
+<nav aria-label="Main">
+<a class="hide" href="#menu">Menu</a>
+<a class="hide" href="#gallery">Gallery</a>
+<a class="hide" href="#how">How it works</a>
+<a class="hide" href="#partner">Partner with us</a>
+<a class="hide" href="#about">About us</a>
+<button class="btn cart" id="cart" type="button" aria-live="polite">Cart (0)</button>
+<a class="btn solid" href="/signin">Sign in</a>
+</nav>
+</div>
+</header>
+
+<main id="top">
+<div class="hero">
+<svg class="bg ring" style="right:-180px;top:-120px" width="760" height="760" viewBox="0 0 760 760" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="380" cy="380" r="60"/><circle cx="380" cy="380" r="120"/><circle cx="380" cy="380" r="190"/><circle cx="380" cy="380" r="270"/><circle cx="380" cy="380" r="360" stroke-dasharray="2 8"/></svg>
+<svg class="bg ring" style="left:-140px;bottom:-200px" width="520" height="520" viewBox="0 0 520 520" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="260" cy="260" r="50"/><circle cx="260" cy="260" r="110"/><circle cx="260" cy="260" r="180"/><circle cx="260" cy="260" r="250" stroke-dasharray="2 8"/></svg>
+<div class="wrap">
+<h1>Every Sip, A New Feeling</h1>
+<p class="lead">Splsh connects you to cafes, supermarkets. Order a drink and have it delivered. We do not sell alcohol or beer.</p>
+<div class="find" role="search">
+<label class="field loc"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg><input type="text" placeholder="Delivery location" aria-label="Delivery location" autocomplete="street-address"></label>
+<label class="field"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.500-3.500"/></svg><input id="q" type="search" placeholder="Search cold brew, mango shake, cola" aria-label="Search drinks"></label>
+</div>
+</div>
+</div>
+
+<section id="menu">
+<svg class="bg" style="right:-220px;bottom:-240px" width="640" height="640" viewBox="0 0 640 640" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="320" cy="320" r="80"/><circle cx="320" cy="320" r="160"/><circle cx="320" cy="320" r="240"/><circle cx="320" cy="320" r="310" stroke-dasharray="2 8"/></svg>
+<div class="wrap">
+<div class="head"><h2>What would you like to drink?</h2><p>Coffee comes first. Add what you want and check out when you are ready.</p></div>
+<div id="groups"></div>
+<p class="none" id="none">Nothing matches that search. Try a shorter word like coffee, shake or soda.</p>
+</div>
+</section>
+
+<!-- GALLERY: to use your own photo, change the src="..." path inside each figure below.
+     Change the text inside <figcaption> to change the caption. Copy a whole <figure> block to add more. -->
+<section id="gallery" class="alt">
+<div class="wrap">
+<div class="head"><h2>Gallery</h2><p>A closer look at what you can order on Splsh.</p></div>
+<div class="gal">
+<figure class="shot"><div class="frame"><img src="images/Americano.jpeg" alt="Coffee" loading="lazy" onerror="this.remove()"></div><figcaption>Coffee</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="images/Choclateshake.jpeg" alt="Shakes" loading="lazy" onerror="this.remove()"></div><figcaption>Shakes</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="images/Wheychoclateshake.jpeg" alt="Protein shakes" loading="lazy" onerror="this.remove()"></div><figcaption>Protein shakes</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="images/Ener.jpeg" alt="Energy drinks" loading="lazy" onerror="this.remove()"></div><figcaption>Energy drinks</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="images/LEmon.jpeg" alt="Soft drinks" loading="lazy" onerror="this.remove()"></div><figcaption>Soft drinks</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="images/Watermelon.jpeg" alt="Juices" loading="lazy" onerror="this.remove()"></div><figcaption>Juices</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section id="how">
+<div class="wrap">
+<div class="head"><h2>How an order works</h2></div>
+<div class="cols">
+<div class="col"><h3>Pick a shop</h3><p>Enter your location and see the cafes, stalls and supermarkets that deliver to you.</p></div>
+<div class="col"><h3>Build your order</h3><p>Add drinks from one shop. Each item shows what it is, so there are no surprises at the door.</p></div>
+<div class="col"><h3>Get it delivered</h3><p>The shop prepares your drinks and a rider brings them to your address.</p></div>
+</div>
+</div>
+</section>
+
+<section id="partner" class="alt">
+<svg class="bg" style="left:-200px;top:-160px" width="520" height="520" viewBox="0 0 520 520" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="260" cy="260" r="70"/><circle cx="260" cy="260" r="140"/><circle cx="260" cy="260" r="210"/><circle cx="260" cy="260" r="255" stroke-dasharray="2 8"/></svg>
+<div class="wrap partner">
+<div>
+<h2>Sell your drinks on Splsh</h2>
+<p>If you run a cafe, a gym cafe or a supermarket, you can list your non alcoholic drinks and reach people nearby without building your own delivery service.</p>
+<a class="btn solid" href="/partner">Partner with us</a>
+</div>
+<ul>
+<li><b>Cafes</b><span>Coffee, cold brew, iced drinks and shakes.</span></li>
+<li><b>Gyms and fitness cafes</b><span>Protein shakes, electrolyte drinks and smoothies.</span></li>
+<li><b>Supermarkets</b><span>Packaged soft drinks, energy drinks and protein shakes.</span></li>
+</ul>
+</div>
+</section>
+
+<section id="about">
+<div class="wrap about">
+<div>
+<h2>About us</h2>
+<p class="tag">Every Sip, A New Feeling</p>
+<p>Splsh began with a simple belief: a well made drink should never be far away. It might be the first coffee of a slow morning, a cold shake on a warm afternoon or a protein shake after training. We want each one to reach you chilled, fresh and just as the shop prepared it.</p>
+<p>We work with local cafes, supermarkets, and gyms and fitness cafes, so every order comes from a counter or shelf that people already trust. Their craft stays at the centre of the experience. We simply carry it to your door with care.</p>
+<p>Splsh is built around drinks and nothing else. That focus lets us keep the menu tidy, the browsing calm and the delivery careful. We do not list alcohol or beer, so the platform stays welcoming at every hour of the day and for every kind of occasion.</p>
+<p>Behind it are three founders, Harshit, Aakash and Lakshya, who set out to make everyday refreshment feel considered instead of rushed.</p>
+</div>
+<div class="founders" aria-label="Founders">
+<div><b>Harshit</b><span>Founder</span></div>
+<div><b>Aakash</b><span>Founder</span></div>
+<div><b>Lakshya</b><span>Founder</span></div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap foot">
+<span>&copy; <span id="yr"></span> Splsh. All rights reserved.</span>
+<nav aria-label="Legal"><a href="/privacy-policy">Privacy policy</a><a href="/terms-and-conditions">Terms and conditions</a></nav>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
