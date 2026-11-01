@@ -1,0 +1,4 @@
+Splsh began with a simple belief: a well made drink should never be far away. It might be the first coffee of a slow morning, a cold shake on a warm afternoon or a protein shake after training. We want each one to reach you chilled, fresh and just as the shop prepared it.
+We work with local cafes, supermarkets, and gyms and fitness cafes, so every order comes from a counter or shelf that people already trust. Their craft stays at the centre of the experience. We simply carry it to your door with care.
+Splsh is built around drinks and nothing else. That focus lets us keep the menu tidy, the browsing calm and the delivery careful. We do not list alcohol or beer, so the platform stays welcoming at every hour of the day and for every kind of occasion.
+Behind it are three founders, Harshit, Aakash and Lakshya, who set out to make everyday refreshment feel considered instead of rushed.
